@@ -855,6 +855,7 @@ Buona fortuna!
 
 - [[NovaActias](https://github.com/NovaActias)]
 - [[Riccardo-Gottardi](https://github.com/Riccardo-Gottardi)]
+- Ale
 
 ---
 

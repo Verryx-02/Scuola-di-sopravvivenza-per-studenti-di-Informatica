@@ -11,10 +11,14 @@
             "id": "826efba581210cd5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Volume 3 Consigli per fuorisede.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "Volume 3 Consigli per fuorisede"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Volume 3 Consigli per fuorisede.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti"
+              "title": "Riferimenti a Volume 3 Consigli per fuorisede"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Volume 3 Consigli per fuorisede.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita"
+              "title": "Collegamenti in uscita da Volume 3 Consigli per fuorisede"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Volume 3 Consigli per fuorisede.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Struttura di Volume 3 Consigli per fuorisede"
             }
           }
         ]
@@ -163,10 +170,10 @@
   },
   "active": "826efba581210cd5",
   "lastOpenFiles": [
+    "Volume 2 Consigli specifici per esame.md",
+    "Volume 1 Consigli generali.md",
     "Scuola di sopravvivenza per studenti di Informatica (Volume 3).md",
     "Volume 3 Consigli per fuorisede.md",
-    "Volume 1 Consigli generali.md",
-    "Volume 2 Consigli specifici per esame.md",
     "Volume 1 (Consigli generali).md",
     "Scuola di sopravvivenza per studenti di Informatica (Volume 2).md",
     "Scuola di sopravvivenza per studenti di Informatica (Volume 1).md"
