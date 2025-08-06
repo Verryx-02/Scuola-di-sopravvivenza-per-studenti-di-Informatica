@@ -1,2 +1,12 @@
+<div align="center">
+
 # Scuola-di-sopravvivenza-per-studenti-di-Informatica
-Una guida open-source scritta da studenti per studenti. Consigli pratici, errori da evitare, strategie testate sul campo e molto altro
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
+
+
+Una guida open-source scritta da studenti per studenti. Consigli pratici, errori da evitare, strategie testate sul campo e molto altro.  
+Sentiti libero di contribuire se ti va. 
