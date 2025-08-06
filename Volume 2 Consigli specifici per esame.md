@@ -157,4 +157,3 @@ Buona fortuna.
 
 - > [[NovaActias](https://github.com/NovaActias)]
 - > [[Riccardo-Gottardi](https://github.com/Riccardo-Gottardi)]
-- > [[AlessandroMattei](https://github.com/AlessandroMattei)]
