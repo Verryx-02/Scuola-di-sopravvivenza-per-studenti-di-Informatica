@@ -153,7 +153,7 @@ Contribuendo a questo progetto, accetti che i tuoi contributi siano rilasciati s
 
 ---
 
-**Ricorda**: Questa guida esiste per aiutare gli studenti di Informatica. Ogni contributo, per quanto piccolo, può fare la differenza per qualcuno! 🎓
+**Ricorda**: Questa guida esiste per aiutare gli studenti di Informatica. Ogni contributo, per quanto piccolo, può fare la differenza per qualcuno!
 
 ## Riconoscimenti
 
