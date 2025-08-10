@@ -26,5 +26,5 @@ Buona fortuna.
 > Un grazie speciale a chi ha letto e commentato questa guida prima della pubblicazione, aiutandomi a migliorarla, correggerla e renderla ancora più utile:
 
 - [[NovaActias](https://github.com/NovaActias)]
--  [[Riccardo-Gottardi](https://github.com/Riccardo-Gottardi)]
+- [[Riccardo-Gottardi](https://github.com/Riccardo-Gottardi)]
 - Ale
