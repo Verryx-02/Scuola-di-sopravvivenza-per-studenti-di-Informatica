@@ -1,2 +1,5 @@
 #SO files
 .DS_Store
+
+#Obsidian files
+.obsidian/
