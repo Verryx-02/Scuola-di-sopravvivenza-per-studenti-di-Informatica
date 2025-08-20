@@ -87,7 +87,7 @@ Quando aggiungi informazioni che possono diventare obsolete:
 
 ### Tempi di risposta
 
-Dipendono molto dal tempo che ho a disposizione e ad quando vedo la notifica. Potrei metterci 30 minuti come 3 settimane.
+Dipendono molto dal tempo che ho a disposizione e da quando vedo la notifica. Potrei metterci 30 minuti come 3 settimane.
 
 ## Idee per Contributi
 
@@ -126,7 +126,8 @@ Non sai da dove iniziare? Ecco alcune idee:
 **Buono**: "Aggiornato link rotto nella sezione PC e aggiunto MacBook M4 ai consigli"  
 **Cattivo**: "Fix"
 
-**Buono**: "Aggiunta sezione su come gestire l'ansia pre-esame basata su esperienza personale" **Cattivo**: "Nuova roba"
+**Buono**: "Aggiunta sezione su come gestire l'ansia pre-esame basata su esperienza personale"  
+**Cattivo**: "Nuova roba"
 
 ## Codice di Condotta
 Voglio che tutti si sentano benvenuti, indipendentemente da:
