@@ -17,7 +17,8 @@ Attualmente la guida è composta da 3 volumi:
 
 
 
-In questa repository troverai i volumi nei formati pdf e tex. Ti consiglio di scaricare i pdf che ti interessano e di leggerli da PC.  
+In questa repository troverai i volumi nei formati pdf e tex.   
+Ti consiglio di scaricare i pdf che ti interessano e di leggerli da PC.  
 
 Puoi scaricare i pdf direttamente dall'interfaccia grafica, o scaricare l'intera cartella con  
 ```
