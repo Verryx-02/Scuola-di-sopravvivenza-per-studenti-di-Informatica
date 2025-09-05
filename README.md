@@ -24,14 +24,22 @@ Consigli pratici, errori da evitare, strategie testate sul campo e molto altro p
 
 Scarica i singoli volumi che ti interessano:
 
+
+#### Volume 1 (disponibile ora)
+
 ```bash
-# Volume 1 (disponibile ora)
 curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf"
+```
 
-# Volume 2 (quando disponibile)
+#### Volume 2 (quando disponibile)
+
+```bash
 curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf"
+```
 
-# Volume 3 (quando disponibile)  
+#### Volume 3 (quando disponibile)  
+
+```bash
 curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
 ```
 
@@ -47,7 +55,7 @@ Se vuoi anche i file sorgente LaTeX:
 git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica.git
 ```
 
-## Consiglio di lettura
+## Consiglio di lettura fondamentale
 
 **Leggi i PDF da PC** per una migliore esperienza di navigazione e per poter cliccare sui link interni.
 
