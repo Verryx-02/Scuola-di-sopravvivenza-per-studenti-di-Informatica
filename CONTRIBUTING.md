@@ -3,22 +3,23 @@
 # Come contribuire al progetto
 
 </div>
-In questo file troverai tutto ciò che ti serve sapere per contribuire al progetto Scuola di sopravvivenza per studenti di informatica. Ancheil il più piccolo dei contributi è ben visto, purchè sia sensato. 
+In questo file troverai tutto ciò che ti serve sapere per contribuire al progetto Scuola di sopravvivenza per studenti di informatica. Anche il più piccolo dei contributi è ben visto, purché sia sensato. 
 
 ### Se NON sai usare GitHub
 
 1. Scrivimi a [verryx_github.untaken971@passinbox.com] inviandomi:
     - Correzioni o suggerimenti
-    - Nuove sezioni che vorresti vedere
+    - Nuove sezioni
     - Errori che hai trovato
     - La tua esperienza se vuoi condividerla
+    - Qualunque altra cosa che vorresti inserire nella guida
        
 2. Scrivi nei gruppi di Informatica specificando che è per la guida di sopravvivenza
     
 
 ### Se sai usare GitHub (o vuoi imparare)
 
-1. Fai un **fork** del repository
+1. Fai un **fork** della repository
 2. Clona il progetto sul tuo pc
 ```
 git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica
