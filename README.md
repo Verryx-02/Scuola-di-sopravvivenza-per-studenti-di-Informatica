@@ -1,48 +1,56 @@
 <div align="center">
 
-# Scuola-di-sopravvivenza-per-studenti-di-Informatica
-
+# Scuola di Sopravvivenza per Studenti di Informatica
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+_Una guida open-source scritta da studenti per studenti_
+
 </div>
 
+## Cosa troverai
 
-Una guida open-source scritta da studenti per studenti. Consigli pratici, errori da evitare, strategie testate sul campo e molto altro.  
-Attualmente la guida è composta da 3 volumi:
+Consigli pratici, errori da evitare, strategie testate sul campo e molto altro per sopravvivere al corso di Informatica.
 
-- Volume1: Consigli generali
-- Volume2: Consigli specifici per ogni esame (Work In Progress)
-- Volume3: Consigli per gli studenti fuori-sede (Work In Progress)  
+|Volume|Contenuto|Stato|
+|---|---|---|
+|**Volume 1**|Consigli generali| Disponibile|
+|**Volume 2**|Consigli specifici per ogni esame| Work in Progress|
+|**Volume 3**|Consigli per studenti fuori-sede| Work in Progress|
 
+## Come scaricare i PDF
 
+### Opzione 1: Download diretto (consigliato)
 
-In questa repository troverai i volumi nei formati pdf e tex.   
-Ti consiglio vivamente di scaricare i pdf che ti interessano e di leggerli da PC
+Scarica i singoli volumi che ti interessano:
 
-# Per scaricare il Volume1.pdf
-```
+```bash
+# Volume 1 (disponibile ora)
 curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf"
-```
 
-# Per scaricare il Volume2.pdf (quando sarà disponibile)
-```
+# Volume 2 (quando disponibile)
 curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf"
-```
 
-# Per scaricare il Volume3.pdf (quando sarà disponibile)
-```
+# Volume 3 (quando disponibile)  
 curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
 ```
 
-# Per scaricare tutti i volumi in una volta
+### Opzione 2: Download tramite browser
+
+Clicca sui file PDF nella repository e premi il pulsante "Download"  
+
+### Opzione 3: Clona tutto il progetto
+
+Se vuoi anche i file sorgente LaTeX:
+
+```bash
+git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica.git
 ```
-curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf" && \
-curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf" && \
-curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
-```
 
-Sentiti libero di contribuire se ti va, ma assicurati di seguire le linee guide del file [CONTRIBUTING.md](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
+## Consiglio di lettura
 
+**Leggi i PDF da PC** per una migliore esperienza di navigazione e per poter cliccare sui link interni.
 
+## Contribuisci
 
+Sentiti libero di contribuire! Prima di iniziare, leggi le [linee guida per contribuire](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
