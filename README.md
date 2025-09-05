@@ -18,13 +18,29 @@ Attualmente la guida è composta da 3 volumi:
 
 
 In questa repository troverai i volumi nei formati pdf e tex.   
-Ti consiglio di scaricare i pdf che ti interessano e di leggerli da PC.  
+Ti consiglio vivamente di scaricare i pdf che ti interessano e di leggerli da PC
 
-Puoi scaricare i pdf direttamente dall'interfaccia grafica, o scaricare l'intera cartella con  
+# Per scaricare il Volume1.pdf
 ```
-git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica
+curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf"
 ```
 
+# Per scaricare il Volume2.pdf (quando sarà disponibile)
+```
+curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf"
+```
+
+# Per scaricare il Volume3.pdf (quando sarà disponibile)
+```
+curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
+```
+
+# Per scaricare tutti i volumi in una volta
+```
+curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf" && \
+curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf" && \
+curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
+```
 
 Sentiti libero di contribuire se ti va, ma assicurati di seguire le linee guide del file [CONTRIBUTING.md](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
 
