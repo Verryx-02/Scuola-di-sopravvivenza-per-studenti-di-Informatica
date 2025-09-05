@@ -10,7 +10,9 @@ _Una guida open-source scritta da studenti per studenti_
 
 ## Cosa troverai
 
-Consigli pratici, errori da evitare, strategie testate sul campo e molto altro per sopravvivere al corso di Informatica.
+Consigli pratici, errori da evitare, strategie testate sul campo e molto altro per sopravvivere al corso di Informatica.   
+**Leggi i PDF da PC** per una migliore esperienza di navigazione e per poter cliccare sui link interni.
+
 
 |Volume|Contenuto|Stato|
 |---|---|---|
@@ -54,10 +56,6 @@ Se vuoi anche i file sorgente LaTeX:
 ```bash
 git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica.git
 ```
-
-## Consiglio di lettura fondamentale
-
-**Leggi i PDF da PC** per una migliore esperienza di navigazione e per poter cliccare sui link interni.
 
 ## Contribuisci
 
