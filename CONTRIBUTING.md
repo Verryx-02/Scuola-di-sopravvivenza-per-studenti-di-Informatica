@@ -1,6 +1,11 @@
-Tutti i contributi sono benvenuti: correzioni, aggiunte, miglioramenti, nuove sezioni, o anche solo segnalazioni di errori.
+<div align="center"> 
 
-## Se NON sai usare GitHub
+# Come contribuire al progetto
+
+</div>
+In questo file troverai tutto ciò che ti serve sapere per contribuire al progetto Scuola di sopravvivenza per studenti di informatica. Ancheil il più piccolo dei contributi è ben visto, purchè sia sensato. 
+
+### Se NON sai usare GitHub
 
 1. Scrivimi a [verryx_github.untaken971@passinbox.com] inviandomi:
     - Correzioni o suggerimenti
