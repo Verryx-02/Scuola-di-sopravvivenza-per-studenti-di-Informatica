@@ -1,29 +1,43 @@
 Tutti i contributi sono benvenuti: correzioni, aggiunte, miglioramenti, nuove sezioni, o anche solo segnalazioni di errori.
 
-## Contribuire è facile, anche se non sai usare GitHub
+## Se NON sai usare GitHub
 
-### Se NON sai usare GitHub
-
-1. Scrivi a [verryx_github.untaken971@passinbox.com] con:
+1. Scrivimi a [verryx_github.untaken971@passinbox.com] inviandomi:
     - Correzioni o suggerimenti
     - Nuove sezioni che vorresti vedere
     - Errori che hai trovato
     - La tua esperienza se vuoi condividerla
-    
-2. Scrivi nel server di Informatica
-    
-3. Scrivi nei gruppi di Informatica specificando che è per la guida di sopravvivenza
+       
+2. Scrivi nei gruppi di Informatica specificando che è per la guida di sopravvivenza
     
 
 ### Se sai usare GitHub (o vuoi imparare)
 
 1. Fai un **fork** del repository
-2. Clona il fork sul tuo computer
-3. Crea un nuovo branch: `git checkout -b nome-della-tua-modifica`
+2. Clona il progetto sul tuo pc
+```
+git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica
+```
+   
+3. Crea un nuovo branch:
+```
+git checkout -b nome-della-tua-modifica
+```
+
 4. Fai le tue modifiche
-5. Committa: `git commit -m "Descrizione delle modifiche"`
-6. Push: `git push origin nome-della-tua-modifica`
-7. Apri una **Pull Request**
+5. Aggiungi le modifiche all'area di staging:
+```
+git add .
+```
+6. Commit:
+```
+git commit -m "Descrizione delle modifiche"
+```
+7. Push:
+```
+git push origin nome-della-tua-modifica
+```
+8. Apri una **Pull Request**
 
 ##  Tipi di Contributi Benvenuti
 
@@ -53,20 +67,20 @@ Tutti i contributi sono benvenuti: correzioni, aggiunte, miglioramenti, nuove se
 
 ### Stile di scrittura
 
-- **Tono**: Amichevole ma diretto, come l'originale
-- **Persona**: Usa la seconda persona ("tu", "ti consiglio")
-- **Esempi**: Includi sempre esempi concreti quando possibile
-- **Onestà**: Sii trasparente su pro e contro dei tuoi consigli
+- usa un **tono** amichevole ma diretto, come l'originale
+- Usa la **seconda persona** ("tu", "ti consiglio")
+- Includi sempre **esempi** concreti quando possibile
+- Sii trasparente e **onesto** su pro e contro dei tuoi consigli
 
 ### Formattazione LaTeX
 
-Se modifichi il file .tex, rispetta:
+Se modifichi il file .tex, usa:
 
-- **Struttura**: Usa `\section{}`, `\subsection{}` e `\subsubsection` coerentemente
-- **Link**: Usa `\href{URL}{Testo}` per i link esterni
-- **Enfasi**: Usa `\textbf{}` per il grassetto
-- **Quote**: Usa l'ambiente `quote` per i consigli importanti
-- **Liste**: Usa l'ambiente `itemize` per le liste
+- `\section{}`, `\subsection{}` e `\subsubsection` coerentemente
+- `\href{URL}{Testo}` per i link esterni
+- `\textbf{}` per il grassetto
+- `quote` per i consigli importanti
+- `itemize` per le liste
 
 ### Aggiornamenti informativi
 
@@ -97,16 +111,15 @@ Non sai da dove iniziare? Ecco alcune idee:
 
 - [ ] Verificare tutti i link esterni
 - [ ] Aggiornare informazioni su software e app
-- [ ] Controllare date degli esami e procedure
 - [ ] Aggiornare prezzi e modelli di PC consigliati
 
 ### Nuove sezioni potenziali
 
 - [ ] Come gestire l'ansia da esame
 - [ ] Consigli per studenti lavoratori
-- [ ] Come scegliere il percorso magistrale
+- [ ] Come scegliere la magistrale
 - [ ] Gestione del tempo durante la sessione
-- [ ] Come prepararsi per i colloqui di tirocinio
+- [ ] Come prepararsi per il tirocinio
 
 ### Miglioramenti di sezioni esistenti
 
@@ -119,15 +132,15 @@ Non sai da dove iniziare? Ecco alcune idee:
 
 1. **Leggi tutto il documento** prima di proporre grandi cambiamenti
 2. **Chiedi se non sei sicuro**: Meglio una domanda in più che un lavoro rifatto
-3. **Usa il Discord**: Gli altri studenti possono aiutarti
+3. **Usa i canali Whatsapp**: Gli altri studenti possono aiutarti
 
 ### Come scrivere buone descrizioni
 
-**Buono**: "Aggiornato link rotto nella sezione PC e aggiunto MacBook M4 ai consigli"  
+**Buono**: "Aggiornato link rotto nella sezione PC e aggiunto nuovo modello di PC ai consigli"  
 **Cattivo**: "Fix"
 
-**Buono**: "Aggiunta sezione su come gestire l'ansia pre-esame basata su esperienza personale"  
-**Cattivo**: "Nuova roba"
+**Buono**: "Aggiunta sezione su come gestire l'ansia pre-esame basata su esperienza personale e studi scientifici"  
+**Cattivo**: "Roba nuova"
 
 ## Codice di Condotta
 Voglio che tutti si sentano benvenuti, indipendentemente da:
@@ -135,7 +148,7 @@ Voglio che tutti si sentano benvenuti, indipendentemente da:
 - Livello di esperienza in programmazione
 - Background scolastico
 - Provenienza geografica
-- Identità di genere, orientamento, età
+- Identità di genere, orientamento, età, ecc
 
 ### Comportamenti inaccettabili
 
@@ -158,6 +171,6 @@ Contribuendo a questo progetto, accetti che i tuoi contributi siano rilasciati s
 
 ## Riconoscimenti
 
-Tutti i contributori verranno menzionati nei ringraziamenti del documento principale. Se preferisci rimanere anonimo, faccelo sapere.
+Tutti i contributori verranno menzionati nei ringraziamenti del documento principale. Se preferisci rimanere anonimo, fammelo sapere.
 
 Grazie per aver letto fino a qui e per voler contribuire! 
