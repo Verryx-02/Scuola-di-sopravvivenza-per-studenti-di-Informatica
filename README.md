@@ -1,12 +1,4 @@
-<div align="center">
-
-# Scuola di Sopravvivenza per Studenti di Informatica
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-_Una guida open-source scritta da studenti per studenti_
-
-</div>
+![Banner](assets/Banner.png)
 
 # Cosa troverai
 
