@@ -3,7 +3,7 @@
 # Cosa troverai
 
 
-Consigli pratici, errori da evitare, strategie testate sul campo e molto altro per sopravvivere al corso di Informatica all'Università di Udine.    
+Consigli pratici, errori da evitare, strategie testate sul campo e molto altro per sopravvivere al corso di Informatica dell'Università di Udine.    
 **Leggi i volumi della guida da PC** per una migliore esperienza di navigazione.  
 **Ti consiglio di scaricarli** per poter cliccare sui link nei PDF.
 
