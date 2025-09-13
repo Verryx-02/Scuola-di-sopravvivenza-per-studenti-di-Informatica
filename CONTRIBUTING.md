@@ -15,7 +15,6 @@ In questo file troverai tutto ciò che ti serve sapere per contribuire al proget
     - Qualunque altra cosa che vorresti inserire nella guida
        
 2. Scrivi nei gruppi di Informatica specificando che è per la guida di sopravvivenza
-    
 
 ### Se sai usare GitHub (o vuoi imparare)
 
@@ -30,7 +29,7 @@ git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-I
 git checkout -b nome-della-tua-modifica
 ```
 
-4. Fai le tue modifiche
+4. Fai le tue modifiche (vedi sezione importante qui sotto)
 5. Aggiungi le modifiche all'area di staging:
 ```
 git add .
@@ -44,6 +43,32 @@ git commit -m "Descrizione delle modifiche"
 git push origin nome-della-tua-modifica
 ```
 8. Apri una **Pull Request**
+
+## ⚠️ IMPORTANTE: Modifiche ai file
+
+### Cosa modificare
+- **Modifica SOLO i file .tex** (Volume1.tex, Volume2.tex, Volume3.tex)
+- README.md e altri file di documentazione
+- **NON modificare mai i PDF**
+
+### Perché non modificare i PDF
+I file PDF (Volume1.pdf, Volume2.pdf, Volume3.pdf) vengono compilati automaticamente dai file LaTeX. 
+
+**Problemi se modifichi i PDF:**
+- Non posso vedere le differenze nelle review
+- Le tue modifiche verranno sovrascritte quando ricompilo
+- Rallenta il processo di review
+
+### Come funziona il processo
+1. Tu modifichi il file .tex appropriato
+2. Io compilo e aggiorno il PDF corrispondente dopo il merge
+3. Tutti vedono le tue modifiche nel PDF finale
+
+### Se non sai usare LaTeX
+Se non conosci LaTeX ma vuoi contribuire:
+- Apri una **Issue** descrivendo la modifica
+- Ti aiuterò io a implementarla nel file .tex
+- In alternativa, inviami un'email con i dettagli
 
 ##  Tipi di Contributi Benvenuti
 
@@ -82,11 +107,12 @@ git push origin nome-della-tua-modifica
 
 Se modifichi il file .tex, usa:
 
-- `\section{}`, `\subsection{}` e `\subsubsection` coerentemente
+- `\section{}`, `\subsection{}` e `\subsubsection{}` coerentemente
 - `\href{URL}{Testo}` per i link esterni
 - `\textbf{}` per il grassetto
 - `quote` per i consigli importanti
 - `itemize` per le liste
+- Compila localmente per verificare che non ci siano errori di sintassi
 
 ### Aggiornamenti informativi
 
@@ -104,6 +130,7 @@ Quando aggiungi informazioni che possono diventare obsolete:
 2. **Pertinenza**: È utile per studenti di Informatica UNIUD?
 3. **Chiarezza**: È scritto in modo comprensibile?
 4. **Coerenza**: Si integra bene con il resto del documento?
+5. **Sintassi LaTeX**: Il codice compila senza errori?
 
 ### Tempi di risposta
 
@@ -139,14 +166,28 @@ Non sai da dove iniziare? Ecco alcune idee:
 1. **Leggi tutto il documento** prima di proporre grandi cambiamenti
 2. **Chiedi se non sei sicuro**: Meglio una domanda in più che un lavoro rifatto
 3. **Usa i canali Whatsapp**: Gli altri studenti possono aiutarti
+4. **Inizia piccolo**: Una piccola correzione è meglio di una grande modifica mal fatta
 
 ### Come scrivere buone descrizioni
 
-**Buono**: "Aggiornato link rotto nella sezione PC e aggiunto nuovo modello di PC ai consigli"  
+**Buono**: "Corretto errore di grammatica in Volume1.tex, sezione 'Scelta del PC'"  
 **Cattivo**: "Fix"
 
-**Buono**: "Aggiunta sezione su come gestire l'ansia pre-esame basata su esperienza personale e studi scientifici"  
+**Buono**: "Aggiunta sezione su come gestire l'ansia pre-esame in Volume1.tex basata su esperienza personale"  
 **Cattivo**: "Roba nuova"
+
+**Buono**: "Aggiornati prezzi MacBook in Volume1.tex, sezione hardware"  
+**Cattivo**: "Modificato Volume1.pdf"
+
+## Utilizzo degli Issue Templates
+
+Per segnalazioni e proposte, usa i template delle Issues:
+- **Segnala un errore**: Per correzioni immediate
+- **Sezione non aggiornata**: Per informazioni obsolete  
+- **Proponi nuova sezione**: Per nuovi contenuti
+- **Altro**: Per tutto il resto
+
+I template ti guidano a fornire tutte le informazioni necessarie per una risposta rapida.
 
 ## Codice di Condotta
 Voglio che tutti si sentano benvenuti, indipendentemente da:
@@ -179,4 +220,4 @@ Contribuendo a questo progetto, accetti che i tuoi contributi siano rilasciati s
 
 Tutti i contributori verranno menzionati nei ringraziamenti del documento principale. Se preferisci rimanere anonimo, fammelo sapere.
 
-Grazie per aver letto fino a qui e per voler contribuire! 
+Grazie per aver letto fino a qui e per voler contribuire!:
