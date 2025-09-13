@@ -1,0 +1,112 @@
+name: Proponi nuova sezione
+description: Hai un'idea per una nuova sezione o argomento da aggiungere alla guida? Condividila qui.
+title: "[NUOVA SEZIONE] "
+labels: ["enhancement", "nuova-sezione"]
+assignees:
+  - Verryx-02
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Le migliori idee vengono dagli studenti! Condividi la tua proposta per migliorare la guida.
+        
+  - type: dropdown
+    id: volume_destinazione
+    attributes:
+      label: In quale volume dovrebbe andare questa sezione?
+      options:
+        - Volume 1 (Consigli generali)
+        - Volume 2 (Consigli per esami)
+        - Volume 3 (Consigli fuori-sede)
+        - Non sono sicuro, decidilo tu
+        - Meriterebbe un volume a parte
+    validations:
+      required: true
+      
+  - type: input
+    id: titolo_sezione
+    attributes:
+      label: Titolo della sezione proposta
+      placeholder: "Esempio: Come gestire l'ansia da esame"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: tipo_sezione
+    attributes:
+      label: Che tipo di sezione è?
+      options:
+        - Consigli pratici/strategie
+        - Guida tecnica (software, hardware)
+        - Informazioni procedurali (università, burocrazia)
+        - Esperienza personale/testimonianza
+        - Risorse utili (link, app, strumenti)
+        - Altro
+    validations:
+      required: true
+      
+  - type: textarea
+    id: descrizione_sezione
+    attributes:
+      label: Descrivi la sezione proposta
+      description: Spiega di cosa parlerebbe questa sezione e perché sarebbe utile
+      placeholder: |
+        Esempio: 
+        Una sezione su come gestire l'ansia pre-esame con:
+        - Tecniche di respirazione
+        - Come organizzare i giorni prima dell'esame
+        - Cosa fare se si va nel panico
+        Sarebbe utile perché molti studenti soffrono d'ansia ma nessuno ne parla.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: contenuto_proposto
+    attributes:
+      label: Contenuto proposto (opzionale)
+      description: Se hai già delle idee concrete sul contenuto, scrivile qui
+      placeholder: "Puoi scrivere una bozza, punti chiave, o anche solo idee sparse"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: esperienza_personale
+    attributes:
+      label: La tua esperienza (opzionale)
+      description: Se la proposta nasce dalla tua esperienza personale, condividila
+      placeholder: "Esempio: Ho sofferto d'ansia per 3 anni e ho trovato queste strategie che funzionano..."
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: priorita
+    attributes:
+      label: Quanto pensi sia importante questa sezione?
+      options:
+        - Molto importante - aiuterebbe molti studenti
+        - Abbastanza importante - utile per alcuni
+        - Sarebbe carino averla - non essenziale
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: disponibilita
+    attributes:
+      label: Disponibilità
+      options:
+        - label: Sono disponibile a scrivere io questa sezione
+          required: false
+        - label: Posso fornire materiale/esperienza ma preferirei che la scrivessi tu
+          required: false
+        - label: È solo un'idea, non posso contribuire alla scrittura
+          required: false
+          
+  - type: checkboxes
+    id: conferma
+    attributes:
+      label: Conferma
+      options:
+        - label: Ho controllato che questa sezione non esista già
+          required: true
+        - label: Ho letto le [linee guida per contribuire](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
+          required: true

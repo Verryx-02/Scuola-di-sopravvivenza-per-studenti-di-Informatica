@@ -1,0 +1,84 @@
+name: Sezione non aggiornata
+description: Hai trovato informazioni obsolete che vanno aggiornate? Segnalalo qui.
+title: "[AGGIORNAMENTO] "
+labels: ["aggiornamento", "obsoleto"]
+assignees:
+  - Verryx-02
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver notato informazioni obsolete! La tecnologia cambia velocemente e il tuo aiuto è prezioso.
+        
+  - type: dropdown
+    id: volume
+    attributes:
+      label: In quale volume hai trovato le informazioni obsolete?
+      options:
+        - Volume 1 (Consigli generali)
+        - Volume 2 (Consigli per esami)
+        - Volume 3 (Consigli fuori-sede)
+        - README o file del repository
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: tipo_aggiornamento
+    attributes:
+      label: Che tipo di informazione va aggiornata?
+      options:
+        - Prezzi di PC/hardware
+        - Software o applicazioni
+        - Procedure universitarie (iscrizioni, tasse, ecc.)
+        - Date o scadenze
+        - Link o siti web
+        - Informazioni sui corsi/esami
+        - Altro
+    validations:
+      required: true
+      
+  - type: textarea
+    id: posizione
+    attributes:
+      label: Dove si trova l'informazione obsoleta?
+      description: Indica la sezione, pagina, o paragrafo
+      placeholder: "Esempio: Volume 1, sezione 'Consigli per l'acquisto del PC', tabella dei prezzi"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: informazione_obsoleta
+    attributes:
+      label: Quale informazione è obsoleta?
+      description: Copia il testo obsoleto o descrivi cosa non è più attuale
+      placeholder: "Esempio: Viene consigliato MacBook Air M1 a 1200€, ma ora costa 1000€ e c'è il modello M2"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: informazione_aggiornata
+    attributes:
+      label: Qual è l'informazione aggiornata?
+      description: Fornisci l'informazione corrente se la conosci
+      placeholder: "Esempio: MacBook Air M2 da 8GB costa ora 1199€, MacBook Air M1 costa 999€"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte dell'aggiornamento (opzionale)
+      description: Se hai una fonte affidabile, condividila
+      placeholder: "Esempio: Sito ufficiale Apple, comunicazione dell'università, ecc."
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: conferma
+    attributes:
+      label: Conferma
+      options:
+        - label: Ho verificato che l'informazione sia effettivamente cambiata
+          required: true
+        - label: Ho letto le [linee guida per contribuire](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
+          required: true

@@ -1,0 +1,89 @@
+name: Altro
+description: Suggerimenti generali, miglioramenti, domande o qualunque altra cosa che non rientra nelle altre categorie.
+title: "[ALTRO] "
+labels: ["discussione"]
+assignees:
+  - Verryx-02
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Usa questo template per tutto ciò che non rientra nelle altre categorie: suggerimenti, domande, miglioramenti generali, ecc.
+        
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Che tipo di contributo è?
+      options:
+        - Miglioramento della chiarezza di una sezione esistente
+        - Suggerimento generale per il progetto
+        - Domanda sulla guida
+        - Proposta per migliorare la struttura
+        - Feedback generale
+        - Condivisione di esperienza
+        - Altro
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: volume_riferimento
+    attributes:
+      label: Si riferisce a un volume specifico?
+      options:
+        - Volume 1 (Consigli generali)
+        - Volume 2 (Consigli per esami)
+        - Volume 3 (Consigli fuori-sede)
+        - Tutto il progetto in generale
+        - README o documentazione
+        - Non si riferisce a nessun volume specifico
+    validations:
+      required: true
+      
+  - type: textarea
+    id: descrizione
+    attributes:
+      label: Descrivi il tuo contributo
+      description: Spiega dettagliatamente la tua proposta, domanda o suggerimento
+      placeholder: |
+        Esempio:
+        - Se è un miglioramento: "La sezione X è poco chiara perché..."
+        - Se è un suggerimento: "Potresti aggiungere..."
+        - Se è una domanda: "Non ho capito..."
+        - Se è esperienza: "Vorrei condividere la mia esperienza su..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: contesto
+    attributes:
+      label: Contesto aggiuntivo (opzionale)
+      description: Aggiungi qualunque informazione che pensi possa essere utile
+      placeholder: "Esempio: Sono al secondo anno, ho avuto questa esperienza, ho notato che altri studenti..."
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: tipo_richiesta
+    attributes:
+      label: Cosa ti aspetti come risposta?
+      options:
+        - label: Una discussione/confronto
+          required: false
+        - label: Un chiarimento o spiegazione
+          required: false
+        - label: Che venga implementato il mio suggerimento
+          required: false
+        - label: Solo volevo condividere, non serve risposta
+          required: false
+        - label: Altro (spiegherò nei commenti)
+          required: false
+          
+  - type: checkboxes
+    id: conferma
+    attributes:
+      label: Conferma
+      options:
+        - label: Ho letto le [linee guida per contribuire](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: Ho controllato se esiste già una discussione simile nelle Issues
+          required: true

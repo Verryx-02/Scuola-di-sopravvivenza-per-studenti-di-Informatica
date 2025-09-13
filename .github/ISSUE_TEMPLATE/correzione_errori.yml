@@ -1,0 +1,73 @@
+name: Segnala un errore
+description: Hai trovato un errore di grammatica, un link rotto o un'informazione sbagliata? Segnalalo qui.
+title: "[ERRORE] "
+labels: ["errore", "correzione"]
+assignees:
+  - Verryx-02
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver trovato un errore! Ogni segnalazione aiuta a migliorare la guida.
+        
+  - type: dropdown
+    id: volume
+    attributes:
+      label: In quale volume hai trovato l'errore?
+      options:
+        - Volume 1 (Consigli generali)
+        - Volume 2 (Consigli per esami)
+        - Volume 3 (Consigli fuori-sede)
+        - README o file del repository
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: tipo_errore
+    attributes:
+      label: Che tipo di errore è?
+      options:
+        - Errore di grammatica/ortografia
+        - Link rotto o non funzionante
+        - Informazione sbagliata
+        - Formato/layout problematico
+        - Altro
+    validations:
+      required: true
+      
+  - type: textarea
+    id: posizione
+    attributes:
+      label: Dove si trova l'errore?
+      description: Indica la sezione, pagina, o paragrafo dove hai trovato l'errore
+      placeholder: "Esempio: Volume 1, sezione 'Scelta del PC', pagina 15, secondo paragrafo"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: descrizione_errore
+    attributes:
+      label: Descrivi l'errore
+      description: Spiega cosa c'è di sbagliato
+      placeholder: "Esempio: Il link al sito dell'università porta a una pagina 404"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: correzione_proposta
+    attributes:
+      label: Correzione proposta (opzionale)
+      description: Se sai come correggere l'errore, scrivilo qui
+      placeholder: "Esempio: Il link corretto dovrebbe essere https://..."
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: conferma
+    attributes:
+      label: Conferma
+      options:
+        - label: Ho letto le [linee guida per contribuire](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: Ho verificato che questo errore non sia già stato segnalato
+          required: true
