@@ -33,6 +33,7 @@ body:
         - Date o scadenze
         - Link o siti web
         - Informazioni sui corsi/esami
+        - Informazioni sui luoghi in cui studiare
         - Altro
     validations:
       required: true
@@ -42,7 +43,7 @@ body:
     attributes:
       label: Dove si trova l'informazione obsoleta?
       description: Indica la sezione, pagina, o paragrafo
-      placeholder: "Esempio: Volume 1, sezione 'Consigli per l'acquisto del PC', tabella dei prezzi"
+      placeholder: "Esempio: Volume 1, Capitolo 15.3, Pagina 13, Il GPT di Wolfram non sbaglia più"
     validations:
       required: true
       
@@ -51,7 +52,7 @@ body:
     attributes:
       label: Quale informazione è obsoleta?
       description: Copia il testo obsoleto o descrivi cosa non è più attuale
-      placeholder: "Esempio: Viene consigliato MacBook Air M1 a 1200€, ma ora costa 1000€ e c'è il modello M2"
+      placeholder: "Esempio:  Molto pi`u affidabile per calcoli e problemi matematici, perché utilizza l’API di WolframAlpha (anche se a volte sbaglia anche lui)"
     validations:
       required: true
       
@@ -60,7 +61,7 @@ body:
     attributes:
       label: Qual è l'informazione aggiornata?
       description: Fornisci l'informazione corrente se la conosci
-      placeholder: "Esempio: MacBook Air M2 da 8GB costa ora 1199€, MacBook Air M1 costa 999€"
+      placeholder: "Esempio: Ormai il GPT di Wolfram non sbaglia più"
     validations:
       required: false
       
@@ -69,7 +70,7 @@ body:
     attributes:
       label: Fonte dell'aggiornamento (opzionale)
       description: Se hai una fonte affidabile, condividila
-      placeholder: "Esempio: Sito ufficiale Apple, comunicazione dell'università, ecc."
+      placeholder: "Esempio: Siti ufficiali, comunicazione dell'università, ecc."
     validations:
       required: false
       

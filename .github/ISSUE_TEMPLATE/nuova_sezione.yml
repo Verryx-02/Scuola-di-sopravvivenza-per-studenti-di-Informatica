@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Le migliori idee vengono dagli studenti! Condividi la tua proposta per migliorare la guida.
+        È una guida fatta da studenti per studenti! Non aver paura di condividere le tue idee.
         
   - type: dropdown
     id: volume_destinazione
@@ -18,8 +18,8 @@ body:
         - Volume 1 (Consigli generali)
         - Volume 2 (Consigli per esami)
         - Volume 3 (Consigli fuori-sede)
-        - Non sono sicuro, decidilo tu
         - Meriterebbe un volume a parte
+        - Non sono sicuro, decidilo tu
     validations:
       required: true
       

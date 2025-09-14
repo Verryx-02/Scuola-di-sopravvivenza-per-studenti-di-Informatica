@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Usa questo template per tutto ciò che non rientra nelle altre categorie: suggerimenti, domande, miglioramenti generali, ecc.
+        Usa questo template per tutto ciò che non rientra nelle altre categorie: suggerimenti, domande, ecc.
         
   - type: dropdown
     id: tipo
@@ -20,7 +20,6 @@ body:
         - Domanda sulla guida
         - Proposta per migliorare la struttura
         - Feedback generale
-        - Condivisione di esperienza
         - Altro
     validations:
       required: true
@@ -33,8 +32,8 @@ body:
         - Volume 1 (Consigli generali)
         - Volume 2 (Consigli per esami)
         - Volume 3 (Consigli fuori-sede)
-        - Tutto il progetto in generale
         - README o documentazione
+        - Tutto il progetto in generale
         - Non si riferisce a nessun volume specifico
     validations:
       required: true
