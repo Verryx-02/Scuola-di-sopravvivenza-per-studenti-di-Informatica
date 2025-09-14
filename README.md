@@ -1,4 +1,4 @@
-![Banner](assets/Banner-azzurro.png)
+![Banner](assets/Banner.png)
 
 # Cosa troverai
 
