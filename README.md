@@ -14,30 +14,36 @@ Consigli pratici, errori da evitare, strategie testate sul campo e molto altro p
 |**Volume 3**|Consigli per studenti fuori-sede|<div align="center">[![In Progress](https://img.shields.io/badge/%20%20Work%20in%20Progress%20%20-darkred?style=flat-square)](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf)</div>|
 
 
-# Come scaricare i PDF
+# Come scaricare la guida
 
-## Opzione 1: Download-Diretto
+## Opzione 1: Download-Diretto dei PDF
 
 Scarica i singoli volumi che ti interessano cliccando i badge verdi qui sopra. (Puoi scaricare solo quelli marcati come disponibili) 
 
 ---
 
-## Opzione 2: Download da terminale
-
-#### Volume 1
+## Opzione 2: Download da terminale dei PDF
 
 ```bash
 curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf"
+
 ```
 
 ---
 
-## Opzione 3: Clona tutto il progetto
-
-Se vuoi anche i file sorgente LaTeX:
+## Opzione 2: Download da terminale dei file LaTex
 
 ```bash
+curl -L -o Volume1.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.tex"
+curl -L -o Volume2.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.tex"
+
+```
+
+
+## Opzione 3: Clona tutto il progetto
+```bash
 git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica.git
+
 ```
 
 ---
