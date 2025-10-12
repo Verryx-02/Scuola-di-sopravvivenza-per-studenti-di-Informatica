@@ -26,6 +26,8 @@ Scarica i singoli volumi che ti interessano cliccando i badge verdi qui sopra. (
 
 ```bash
 curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf"
+# curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf"
+# curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
 
 ```
 
@@ -35,7 +37,8 @@ curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per
 
 ```bash
 curl -L -o Volume1.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.tex"
-curl -L -o Volume2.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.tex"
+# curl -L -o Volume2.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.tex"
+# curl -L -o Volume3.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.tex"
 
 ```
 
