@@ -52,12 +52,18 @@ git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-I
 ---
 
 # Domande frequenti
+
 - Se ho già letto il pdf mesi fa e ora è stato aggiornato, devo rileggerlo tutto per capire cosa è stato modificato?
 No, ti basta guardare i commit [qui](https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/commits/main/)
 Cliccando su ogni commit puoi vedere le singole modifiche ai file.  
 Ti basta ricordarti a grandi linee quando hai scaricato la guida l'ultima volta (puoi guardare i metadati del tuo file), poi leggere tutti i commit da quel momento in poi.   
 Le righe in rosso sono quelle eliminate, quelle in verde sono quelle aggiunte. 
 
+# Stato attuale della guida
+
+- **Il Volume1** è pronto per essere letto. Mancano diverse cose in verità, ma va bene anche così. Aggiungerò il resto una volta terminati gli altri volumi. 
+- **Il Volume2** è pronto se sei del primo anno. Infatti, ho scritto tutti i consigli che mi vengono in mente per i corsi del primo anno. Ho in mente di aggiungere quelli del secondo anno nelle prossime settimane e quelli del terzo tra un paio di mesi.
+- **Il Volume3** è completamente vuoto per il momento. Non so se e quando lo scriverò. Mi sembra un'idea carina, ma ho veramente troppo da fare.
 
 # Contribuisci!
 
