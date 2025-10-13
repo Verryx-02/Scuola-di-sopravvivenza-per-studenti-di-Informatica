@@ -33,7 +33,7 @@ curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per
 
 ---
 
-## Opzione 2: Download da terminale dei file LaTex
+## Opzione 3: Download da terminale dei file LaTex
 
 ```bash
 curl -L -o Volume1.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.tex"
@@ -43,7 +43,7 @@ curl -L -o Volume1.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per
 ```
 
 
-## Opzione 3: Clona tutto il progetto
+## Opzione 4: Clona tutto il progetto
 ```bash
 git clone https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica.git
 
