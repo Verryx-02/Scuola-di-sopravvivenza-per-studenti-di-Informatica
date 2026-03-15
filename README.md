@@ -26,7 +26,7 @@ Scarica i singoli volumi che ti interessano cliccando i badge verdi qui sopra. (
 
 ```bash
 curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.pdf"
-# curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf"
+curl -L -o Volume2.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.pdf"
 # curl -L -o Volume3.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.pdf"
 
 ```
@@ -37,7 +37,7 @@ curl -L -o Volume1.pdf "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per
 
 ```bash
 curl -L -o Volume1.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume1.tex"
-# curl -L -o Volume2.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.tex"
+curl -L -o Volume2.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume2.tex"
 # curl -L -o Volume3.tex "https://github.com/Verryx-02/Scuola-di-sopravvivenza-per-studenti-di-Informatica/raw/main/Volume3.tex"
 
 ```
@@ -62,7 +62,7 @@ Le righe in rosso sono quelle eliminate, quelle in verde sono quelle aggiunte.
 # Stato attuale della guida
 
 - **Il Volume1** è pronto per essere letto. Mancano diverse cose in verità, ma va bene anche così. Aggiungerò il resto una volta terminati gli altri volumi. 
-- **Il Volume2** è pronto se sei del primo anno. Infatti, ho scritto tutti i consigli che mi vengono in mente per i corsi del primo anno. Ho in mente di aggiungere quelli del secondo anno nelle prossime settimane e quelli del terzo tra un paio di mesi.
+- **Il Volume2** è pronto se sei del primo anno. Infatti, ho scritto tutti i consigli che mi vengono in mente per i corsi del primo anno. Ho in mente di aggiungere quelli del secondo e terzo anno prossimamente.
 - **Il Volume3** è completamente vuoto per il momento. Non so se e quando lo scriverò. Mi sembra un'idea carina, ma ho veramente troppo da fare.
 
 # Contribuisci!
